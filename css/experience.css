@@ -10,6 +10,12 @@
     gap: var(--spacing-md);
 }
 
+.experience-container a {
+    display: flex;
+    height: 100%;
+    text-decoration: none; /* Optional: remove underline */
+}
+
 .experience-card {
     background: var(--bg-glass);
     border-radius: var(--radius-md);
